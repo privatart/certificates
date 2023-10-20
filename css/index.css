@@ -23,7 +23,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  gap: 24px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
