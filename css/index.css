@@ -29,8 +29,10 @@ body {
 
 .card {
   position: relative;
-  width: 470px;
-  height: 328px;
+  /* width: 470px; */
+  /* height: 328px; */
+  width: 370px;
+  height: 258px;
   background: #000;
   border-radius: 25px;
   border: #000;
