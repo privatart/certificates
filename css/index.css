@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -31,9 +31,11 @@ body {
   position: relative;
   /* width: 470px; */
   /* height: 328px; */
-  width: 370px;
-  height: 258px;
-  background: #000;
+  /* width: 370px;
+  height: 258px; */
+  /* width: 80%;
+  height: 45vh; */
+  background: #ddd9f1;
   border-radius: 25px;
   border: #000;
   border-width: 20px;
@@ -41,6 +43,26 @@ body {
   box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.9);
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    height: 55vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    width: 80%;
+    height: 55vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .card {
+    width: 35%;
+    height: 50vh;
+  }
+}
 .certificate {
   position: relative;
   top: 0;
@@ -94,7 +116,8 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 1.5em 1.5em 2em;
+  /* padding: 1.5em 1.5em 2em; */
+  padding: 1em;
   background: #629de0;
   backdrop-filter: blur(16px) saturate(120%);
   transition: 0.8s;
@@ -117,14 +140,14 @@ a:hover {
 }
 
 .certificate_info h1 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
+  font-size: 1em;
+  margin-bottom: 0.5em;
 }
 
 .certificate_info h2 {
   font-weight: 400;
   font-size: 1em;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
   opacity: 0.6;
 }
 
