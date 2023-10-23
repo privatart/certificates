@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 
 * {
   margin: 0;
@@ -35,29 +35,44 @@ body {
   height: 258px; */
   /* width: 80%;
   height: 45vh; */
-  background: #ddd9f1;
+  background: #ffffff;
   border-radius: 25px;
   border: #000;
   border-width: 20px;
   overflow: hidden;
   box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.9);
 }
-
-@media (max-width: 768px) {
+/* 
+@media (max-width: 720px) {
   .card {
     width: 90%;
-    height: 55vh;
+    height: 30vh;
   }
-}
+} */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+
+@media (max-width: 620px) {
   .card {
     width: 80%;
-    height: 55vh;
+    height: 40vh;
   }
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 720px) {
+  .card {
+    width: 70%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 60%;
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1025px){
   .card {
     width: 35%;
     height: 50vh;
@@ -72,6 +87,7 @@ body {
   overflow: hidden;
 }
 
+/* 
 .certificate::before {
   content: "";
   position: absolute;
@@ -85,7 +101,7 @@ body {
 
 .card:hover .certificate::before {
   bottom: 0;
-}
+} */
 
 .certificate img {
   position: absolute;
@@ -93,7 +109,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   transition: 0.8s;
 }
 
@@ -140,7 +156,7 @@ a:hover {
 }
 
 .certificate_info h1 {
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 0.5em;
 }
 
