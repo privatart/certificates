@@ -60,14 +60,14 @@ body {
 
 @media (max-width: 720px) {
   .card {
-    width: 70%;
+    width: 90%;
     height: 50vh;
   }
 }
 
 @media (max-width: 1024px) {
   .card {
-    width: 60%;
+    width: 90%;
     height: 40vh;
   }
 }
