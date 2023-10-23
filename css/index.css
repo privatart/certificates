@@ -65,14 +65,14 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1084px) {
   .card {
     width: 90%;
     height: 40vh;
   }
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1085px){
   .card {
     width: 35%;
     height: 50vh;
