@@ -29,12 +29,6 @@ body {
 
 .card {
   position: relative;
-  /* width: 470px; */
-  /* height: 328px; */
-  /* width: 370px;
-  height: 258px; */
-  /* width: 80%;
-  height: 45vh; */
   background: #ffffff;
   border-radius: 25px;
   border: #000;
@@ -42,14 +36,6 @@ body {
   overflow: hidden;
   box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.9);
 }
-/* 
-@media (max-width: 720px) {
-  .card {
-    width: 90%;
-    height: 30vh;
-  }
-} */
-
 
 @media (max-width: 620px) {
   .card {
@@ -86,23 +72,6 @@ body {
   height: 100%;
   overflow: hidden;
 }
-
-/* 
-.certificate::before {
-  content: "";
-  position: absolute;
-  bottom: -45%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: 0.5s;
-}
-
-.card:hover .certificate::before {
-  bottom: 0;
-} */
-
 .certificate img {
   position: absolute;
   top: 0;
@@ -123,7 +92,6 @@ a {
 }
 
 a:hover {
-  /* font-style: italic; */
   opacity: 0.5;
 }
 .certificate_info {
@@ -132,7 +100,6 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  /* padding: 1.5em 1.5em 2em; */
   padding: 1em;
   background: #629de0;
   backdrop-filter: blur(16px) saturate(120%);
